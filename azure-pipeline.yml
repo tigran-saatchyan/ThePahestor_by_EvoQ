@@ -11,7 +11,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 jobs:
-- job: pre-commit
+- job: pre_commit
   displayName: 'Run pre-commit checks'
   steps:
   - checkout: self
